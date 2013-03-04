@@ -1,10 +1,14 @@
-p { font-size: 12px; 
-color: #3D3E40;}
+p { 
+	font-size: 12px; 
+	color: #3D3E40;
+}
 
 body { 
 	background-color: white; 
 	font-family: arial;
-	margin: 0px;}
+	margin: 0px;
+}
+
 #container {
 	width: 750px;
 	margin: 0 auto;
@@ -14,7 +18,7 @@ body {
 	border-right: 1px solid #999;
 	z-index: 1;
 	padding-bottom: 160px;
-	}
+}
 	
 h1 {
 	color: #3D3E40; 
@@ -23,84 +27,85 @@ h1 {
 	font-size: 28px;
 	font-weight: normal;
 	font-family: georgia;
-	}
+}
 h4 { 
-color: #888888;
-margin: 0px auto;
-font-size: 12px;
-padding: 10px 5px;
-width: 750px;
-padding: 18px;
-font-weight: bold;
-font-family: georgia;
+	color: #888888;
+	margin: 0px auto;
+	font-size: 12px;
+	padding: 10px 5px;
+	width: 750px;
+	padding: 18px;
+	font-weight: bold;
+	font-family: georgia;
 }
 
 #top {
-background-image: url(wild_oliva.png);
-background-color: #3D3E40;
-height: 40px;
-width: 100%;
-margin: 0px;
-position: relative;
-border-bottom: 0px solid #0E1021;
--webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
-z-index: 200;
+	background-image: url(wild_oliva.png);
+	background-color: #3D3E40;
+	height: 40px;
+	width: 100%;
+	margin: 0px;
+	position: relative;
+	border-bottom: 0px solid #0E1021;
+	-webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+	z-index: 200;
 }
 
 #bottom {
-background-image: url(wild_oliva.png);
-background-color: #3D3E40;
-color: white;
-text-align: center;
-height: 85px;
-width: 100%;
-margin: 0px;
--webkit-box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
-position: fixed;
-bottom: 0px;
-z-index: 500;
+	background-image: url(wild_oliva.png);
+	background-color: #3D3E40;
+	color: white;
+	text-align: center;
+	height: 85px;
+	width: 100%;
+	margin: 0px;
+	-webkit-box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px -5px 8px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	bottom: 0px;
+	z-index: 500;
 }
 .right {
-float: right;
+	float: right;
 }
 
 #header {
-background-image: url(bears3.jpg);
-background-position-y: -197px;
-background-position-x: 0px;
-padding-bottom: 10px;
-height: 180px;
-width: 750px;
-margin: 0px;
-position: relative;
+	background-image: url(bears3.jpg);
+	background-position: 0px -197px;
+	padding-bottom: 10px;
+	height: 180px;
+	width: 750px;
+	margin: 0px;
+	position: relative;
 }
 
 #copy {
-color: #888888;
-margin-top: 10px;
-position: relative;
-top: 15px;
-font-size: 10px;}
+	color: #888888;
+	margin-top: 10px;
+	position: relative;
+	top: 15px;
+	font-size: 10px;
+}
 
 #welcome {
-width: 500px;
-margin: 60px auto 0px auto;
+	width: 500px;
+	margin: 60px auto 0px auto;
 }
 #hello {
-font-size: 24px;
-color: #21B74F;
-line-height: .5em;
-font-weight: bold;
-font-family: 'georgia', arial;
+	font-size: 24px;
+	color: #21B74F;
+	line-height: .5em;
+	font-weight: bold;
+	font-family: 'georgia', arial;
 }
 
 #sidebar {
-margin: 60px 0px 0px 10px;
+	margin: 60px 0px 0px 10px;
 }
+
 table { 
 	width: 751px;
 	margin: 0px auto 10px auto;
@@ -119,26 +124,30 @@ table {
 }
 
 td {
-height: 25px;
-border-right: 1px solid #3D3E40;
-padding: 0px;
-width: 60px;
+	height: 25px;
+	border-right: 1px solid #3D3E40;
+	padding: 0px;
+	width: 60px;
 }
+
 .no_border {
-border-left: none;
-border-right: none;
-text-align: left;
-padding: 0px;
-width: 180px;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	padding: 0px;
+	width: 180px;
 }
+
 .first_border {
-border-left: none;
+	border-left: none;
 }
+
 .end_border {
-border-right: none;
+	border-right: none;
 }
+
 tr {
-padding: 0px;
+	padding: 0px;
 }
 
 a {
@@ -152,11 +161,11 @@ a:link {
 }
 
 #grey{
-color: #888;
+	color: #888;
 }
 
 #grey:hover {
-color: #ccc;
+	color: #ccc;
 }
 
 a:visited {
@@ -172,38 +181,40 @@ a:active {
 }
 
 textarea {
-width: 500px;
-position: relative;
-margin-top: 10px;
-padding: 5px;
-height: 35px;
-font-family: arial;
-color: #444;
+	width: 500px;
+	position: relative;
+	margin-top: 10px;
+	padding: 5px;
+	height: 35px;
+	font-family: arial;
+	color: #444;
 }
+
 #bigtext {
-height: 300px;
-width: 500px}
+	height: 300px;
+	width: 500px;
+}
 
 #about_table {
-width: 500px;
-background-color: white;
-height: 533px;
+	width: 500px;
+	background-color: white;
+	height: 533px;
 }
 
 #map {
-position: relative;
-left: 161px;
+	position: relative;
+	left: 161px;
 }
 
 .bold {
-font-weight: bold;
+	font-weight: bold;
 }
 
 button {
-position: relative;
-top: 10px;
+	position: relative;
+	top: 10px;
 }
 
 .row_height {
-height: 290px;
+	height: 290px;
 }
